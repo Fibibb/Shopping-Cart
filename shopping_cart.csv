@@ -1,0 +1,33 @@
+﻿"ID","Title","Automation Type","Created By","Created On","Estimate","Expected Result","Forecast","Goals","Mission","Preconditions","Priority","References","Section","Section Depth","Section Description","Section Hierarchy","Steps","Steps","Steps (Additional Info)","Steps (Expected Result)","Steps (References)","Steps (Shared step ID)","Steps (Step)","Suite","Suite ID","Template","Type","Updated By","Updated On"
+"C33","The user can add the product to the shopping cart"," None","Filip Milczarski","10/29/2022 5:54 PM","","","","","","The user is on the homepage.","Critical","","Cart","0","","Cart","1. The user clicks the 'add to cart' button.
+Expected Result:
+The product is added to the cart.","","1.","1. The product is added to the cart.","1.","1.","1. The user clicks the 'add to cart' button.","Master","S2","Test Case (Steps)","Functional","Filip Milczarski","10/29/2022 5:54 PM"
+"C34","The user can remove the product from the cart"," None","Filip Milczarski","10/29/2022 5:57 PM","","","","","","The user has added the product to the cart.","Critical","","Cart","0","","Cart","1. The user presses the button with the cart icon.
+Expected Result:
+A window appears with the products in the shopping cart.2. The user presses the ""X"" button (remove product from cart).
+Expected Result:
+The product is removed from the cart.","","1. 
+2.","1. A window appears with the products in the shopping cart.
+2. The product is removed from the cart.","1. 
+2.","1. 
+2.","1. The user presses the button with the cart icon.
+2. The user presses the ""X"" button (remove product from cart).","Master","S2","Test Case (Steps)","Functional","Filip Milczarski","10/29/2022 5:57 PM"
+"C35","The user can increase the number of products in the shopping cart"," None","Filip Milczarski","10/29/2022 6:02 PM","","","","","","1 The user has a product in the basket
+2 The user is in the "" cart"" section","Critical","","Cart","0","","Cart","1. The user clicks the ""+"" button.
+Expected Result:
+The number of products in the basket is increased by 1, the price in the order summary is increased by the value of the product added. The number next to the "" cart"" icon increases by the number of products added.","","1.","1. The number of products in the basket is increased by 1, the price in the order summary is increased by the value of the product added. The number next to the "" cart"" icon increases by the number of products added.","1.","1.","1. The user clicks the ""+"" button.","Master","S2","Test Case (Steps)","Functional","Filip Milczarski","10/29/2022 6:11 PM"
+"C36","The user can reduce the number of products in the shopping cart"," None","Filip Milczarski","10/29/2022 6:05 PM","","","","","","1 The user has more than one product in the shopping basket
+2 The user is in the ""shopping basket"" section","Critical","","Cart","0","","Cart","1. The user presses the ""-"" button. 
+Expected Result:
+The number of products in the basket is reduced by 1, the price in the order summary is reduced by the value of the product deducted. The number next to the "" cart"" icon reduces by the number of products added.","","1.","1. The number of products in the basket is reduced by 1, the price in the order summary is reduced by the value of the product deducted. The number next to the "" cart"" icon reduces by the number of products added.","1.","1.","1. The user presses the ""-"" button.","Master","S2","Test Case (Steps)","Functional","Filip Milczarski","10/29/2022 6:11 PM"
+"C37","The user can proceed to the ""checkout"" section"," None","Filip Milczarski","10/29/2022 6:15 PM","","","","","","1 User has an product in the shopping basket
+2 User is in the "" Cart"" section","Critical","","Cart","0","","Cart","1. The user clicks the 'checkout' button.
+Expected Result:
+The message ""Checkout - Subtotal: $10.90"" appears.","","1.","1. The message ""Checkout - Subtotal: $10.90"" appears.","1.","1.","1. The user clicks the 'checkout' button.","Master","S2","Test Case (Steps)","Functional","Filip Milczarski","10/29/2022 6:15 PM"
+"C39","The user goes to the ""checkout"" section without any products in the shopping cart (negative)"," None","Filip Milczarski","10/29/2022 6:24 PM","","","","","","1 User does not have any products in the shopping cart
+2 The user is in the ""shopping cart"" section","Low","","Cart","0","","Cart","1. The user clicks the 'checkout' button.
+Expected Result:
+The user is not taken to the ""checkout"" section, the message ""Add some product in the cart!"" appears.","","1.","1. The user is not taken to the ""checkout"" section, the message ""Add some product in the cart!"" appears.","1.","1.","1. The user clicks the 'checkout' button.","Master","S2","Test Case (Steps)","Functional","Filip Milczarski","10/29/2022 6:24 PM"
+"C38","The user can use filter products on the website"," None","Filip Milczarski","10/29/2022 6:20 PM","","","","","","The user is on the homepage.","High","","Search filters","0","","Search filters","1. User presses filter button (XS, S, M, ML, L, XL, XXL)
+Expected Result:
+Products marked with the corresponding filter are displayed on the page.","","1.","1. Products marked with the corresponding filter are displayed on the page.","1.","1.","1. User presses filter button (XS, S, M, ML, L, XL, XXL)","Master","S2","Test Case (Steps)","Functional","Filip Milczarski","10/29/2022 6:20 PM"
