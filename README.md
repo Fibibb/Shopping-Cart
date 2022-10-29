@@ -1,6 +1,6 @@
 # Shopping-Cart
 
-A repository holding test cases prepared for the testing of a reata-based web application.
+A repository holding test cases prepared for the testing of a react-based web application.
 
 ## About Page
 
